@@ -1,6 +1,6 @@
 (function(){
     var jquery_version = '3.3.1';
-    var site_url = site_url + 'static/';
+    var site_url = 'https://bfb0f4d8.ngrok.io/';
     var max_width = 100;
     var min_height = 100;
 
@@ -63,5 +63,6 @@
         }else{
             bookmarklet();
         }
+        
     })();
 })();
