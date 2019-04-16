@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'images.apps.ImagesConfig',
     'sorl.thumbnail',
     'actions.apps.ActionsConfig',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -173,3 +174,8 @@ ABSOLUTE_URL_OVERRIDES = {
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 REDIS_DB = 0
+
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
+}
